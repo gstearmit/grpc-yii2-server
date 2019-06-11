@@ -30,9 +30,21 @@ class Values extends \Google\Protobuf\Internal\Message
      */
     private $value_int32 = 0;
 
-    public function __construct() {
+    /**
+     * Constructor.
+     *
+     * @param array $data {
+     *     Optional. Data for populating the Message object.
+     *
+     *     @type string $key
+     *     @type string $value_string
+     *     @type int|string $value_int64
+     *     @type int $value_int32
+     * }
+     */
+    public function __construct($data = NULL) {
         \GPBMetadata\Proto\Greeter::initOnce();
-        parent::__construct();
+        parent::__construct($data);
     }
 
     /**

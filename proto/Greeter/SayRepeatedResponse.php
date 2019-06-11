@@ -22,9 +22,19 @@ class SayRepeatedResponse extends \Google\Protobuf\Internal\Message
      */
     private $value_int64 = 0;
 
-    public function __construct() {
+    /**
+     * Constructor.
+     *
+     * @param array $data {
+     *     Optional. Data for populating the Message object.
+     *
+     *     @type string $key
+     *     @type int|string $value_int64
+     * }
+     */
+    public function __construct($data = NULL) {
         \GPBMetadata\Proto\Greeter::initOnce();
-        parent::__construct();
+        parent::__construct($data);
     }
 
     /**

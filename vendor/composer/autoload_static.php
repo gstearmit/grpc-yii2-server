@@ -55,11 +55,11 @@ class ComposerStaticInitca92174f94924455cc80624f2ab12859
         ),
         'Google\\Protobuf\\' => 
         array (
-            0 => __DIR__ . '/..' . '/google/protobuf/php/src/Google/Protobuf',
+            0 => __DIR__ . '/..' . '/google/protobuf/src/Google/Protobuf',
         ),
         'GPBMetadata\\Google\\Protobuf\\' => 
         array (
-            0 => __DIR__ . '/..' . '/google/protobuf/php/src/GPBMetadata/Google/Protobuf',
+            0 => __DIR__ . '/..' . '/google/protobuf/src/GPBMetadata/Google/Protobuf',
         ),
     );
 
