@@ -21,5 +21,6 @@ $request->setValue(1);
 
 list($reply, $status) = $greeterClient->SayHello($request)->wait();
 
+print_r($greeterClient);
 print_r($reply);
 print_r($status);

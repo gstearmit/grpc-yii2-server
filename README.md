@@ -105,6 +105,8 @@ Yii2 Controller 和 Action 映射为 Protobuf 中的 Service 和 RPC 方法
 
 - [swoole/grpc-client](https://github.com/swoole/grpc-client)
 
+$ protoc -I=.  --php_out=./proto/  --plugin=protoc-gen-grpc=/usr/local/bin/grpc_php_plugin ./proto/Greeter.proto
 $ grpcc --proto proto/Greeter.proto --address 127.0.0.1:50051 -i
 $ let e = client.sayHello({key : '1' , value :2},printReply)
+$ let de = client.sayDebug({key : '1' , value :2},printReply)
 

@@ -17,7 +17,7 @@
         "yiisoft/yii2": "~2.0.14",
         "grpc/grpc": "v1.15.0",
         "google/protobuf": "^v3.6.0",
-        "eddycjy/grpc-mri": "^0.2.0"
+        "eddycjy/grpc-mri": "^0.3.1"
     },
     "config": {
         "process-timeout": 1800,
